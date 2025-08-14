@@ -5,16 +5,18 @@ body {
     background-image: url(img/Vibrant\ Concert\ Under\ Dynamic\ Lights.png);
     background-size: cover;
     background-position: center;
-    background-repeat:no-repeat
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 /* Navigation Bar */
 header {
-    position: absolute;
+    position: sticky;
     top: 0;
     width: 100%;
     padding: 20px 0;
     z-index: 999;
+    background-color: rgb(0, 0, 0,0.1);
 }
 
 nav ul {
