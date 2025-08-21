@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-image: url(img/Vibrant\ Concert\ Under\ Dynamic\ Lights.png);
+    background-image: url(img/home3.png);
     background-size: cover;
-    background-position: center;
+    background-position:top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
@@ -21,7 +21,7 @@ header {
     width: 100%;
     padding: 20px 0;
     z-index: 999;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 nav ul {
