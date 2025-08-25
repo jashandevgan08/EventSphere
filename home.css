@@ -17,15 +17,41 @@ header {
     z-index: 999;
     background-color:rgba(0,0,0,0.4);
 }
+nav {
+    position: relative; /* so login can be placed inside */
+    display: flex;
+    justify-content: center; /* keeps UL in center */
+    align-items: center;
+    padding: 0 40px;
+}
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
     gap: 40px;
     margin: 0;
     padding: 0;
 }
+
+.login {
+    position: absolute;
+    right: 40px; /* sticks to right corner */
+    padding: 10px 20px;
+    background: #ffcc00;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.login:hover {
+    background: #e6b800;
+    transform: scale(1.05);
+    color: black;
+}
+
+
 
 nav ul li a {
     text-decoration: none;
